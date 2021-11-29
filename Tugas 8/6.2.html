@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        margin-top: 10em;
+    }
+    .nav{
+        width: 10em;
+        height: 30em;
+        background-color: pink;
+    }
+    .tengah{
+        flex-direction: column;
+    }
+    .tengah header{
+        width: 40em;
+        height: 5em;
+        background-color: khaki;
+    }
+    .isi{
+        display: flex;
+    }
+    .tengah .isi article{
+        width: 30em;
+        height: 20em;
+        background-color: white;
+    }
+    .tengah .isi .aside aside{
+        width: 10em;
+        height: 20em;
+        background-color: #03DAC5;
+    }
+    .tengah footer{
+        width: 40em;
+        height: 5em;
+        background-color: khaki;
+    }
+</style>
+<body>
+    <div class="nav">
+        nav
+    </div>
+    <div class="tengah">
+        <header>heder</header>
+            <div class="isi">
+                <article>article</article>
+                <div class="aside">
+                    <aside>aside</aside></div>
+            </div>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>
